@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body {
+	background-color: #575353;
+}
+
+.hide { display: none }
+
+#container {
+	width: 100vw;
+	height: 100vh;
+}
+
+#game-board {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#canvas {
+	background-color: #fcf3e5;
+	margin-top: 30px;
+}
+
+.items {
+	margin-top: 30px;
+	height: 250px;
+}
+
+.instruments-row {
+	height: 160px;
+	float: left;
+	width: 23%;
+	margin-left: 8px;
+	padding: 4px;
+	border: 2px solid #f01eff;
+	border-radius: 30px;
+}
+
+
+.area1 {
+	width: 33%;
+	float: left;
+}
+
+.icon {
+	padding: 10px;
+	width: 75%;
+	cursor: pointer;
+}
+
+.icon_g3{
+	width: 26px !important;
+}
+
+.board1 {
+	background-color: #fcf3e5;
+	height: 615px;
+	padding: 45px;
+}
+
+.subtitle{
+	clear: both;
+	color: #f01eff;
+	text-align: center;
+}
+
+.iconZone3{
+	padding-top: 25px;
+}
+
+#resetButton {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+
+.elements-container {
+	float: left;
+	margin-left: 10px;
+	width: 24%;
+	height: 620px;
+	background: url(../images/bg1.png);
+	background-size: cover;
+}
+
+.elements-container img {
+	width: 40%;
+	margin-top: 460px;
+	margin-left: 70px;
+}
+
+header {
+	text-align: center;
+	margin-top: 70px;
+	color: white;
+}
+
+header h1 {
+	font-size: 3.25em;
+	letter-spacing: 3px;
+	margin: 10px 0
+}
+
+header p, footer p {
+	font-size: 1.7em;
+	letter-spacing: 2px;
+	margin: 10px 0
+}
+
+footer {
+	position: relative;
+	width: 600px;
+	margin: 65px auto 0;
+	text-align: center;
+}
+
+
+#name {
+	width: 800px;
+	height: 250px;
+	margin-left: 20px;
+	position: absolute;
+	top: 0px;
+	left: 40%;
+}
+
+#name img {
+	width: 100%;
+}
+
+.mybtn{
+	font-size: 24px;
+	padding: 20px;
+	width: 190px;
+	margin-top: 50px;
+	margin-right: 50px;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #f09ced;
+	border-color: #f09ced;
+}
+
+.mybtn:hover{
+	color: white;
+	background-color: #f09ced;
+	border: none;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.button_wrap{
+	text-align: center;
+}
